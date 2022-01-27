@@ -1,5 +1,5 @@
 # _Spatial transcriptomics unveils ZBTB11 as a regulator of cardiomyocyte degeneration in arrhythmogenic cardiomyopathy_.
-## Analysis script
+### _Analysis scripts_
 
 _Authors: Cornelis J. Boogerd1†, Grégory P.A. Lacraz1†, Ábel Vértesy1,2†, Sebastiaan J. van Kampen1, Ilaria Perini1, Hesther de Ruiter1, Danielle Versteeg1, Andreas Brodehl3, Petra van der Kraak4, Mauro Giacca5, Nicolaas de Jonge6, Jan Philipp Junker7, Alexander van Oudenaarden1, Aryan Vink4‡, Eva van Rooij1,6‡*_
 
