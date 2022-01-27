@@ -1,7 +1,7 @@
 ######################################################################################################
 # 00.HRT.Frame.DSP.replicate.2020.01.10.R
 ######################################################################################################
-# source("~/GitHub/Projects/HRT/Scripts.DSP.replicate/00.HRT.Frame.DSP.replicate.2020.01.10.R")
+# source("~/GitHub/ACM.TomoSeq/Scripts.DSP.replicate/00.HRT.Frame.DSP.replicate.2020.01.10.R")
 
 rm(list = ls(all.names = TRUE));
 try(dev.off(),silent = T)
@@ -19,7 +19,7 @@ irequire(ggplot2)
 irequire(DESeq2)
 irequire(calibrate)
 
-source("~/GitHub/Projects/HRT/Scripts/Functions.HRT.R")
+source("~/GitHub/ACM.TomoSeq/Scripts/Functions.HRT.R")
 
 # Setup ----------------------------
 InputDir = "~/GitHub/_Papers/ACM.TomoSeq/"
@@ -67,7 +67,7 @@ slice_names = colnames(HeartSlices)
 
 
 # QC & Filtering ------------------------------------------------------------------------------------------------------------
-source("~/GitHub/Projects/HRT/Scripts.DSP.replicate/01.HRT.QC.DSP.replicate.R")
+source("~/GitHub/ACM.TomoSeq/Scripts.DSP.replicate/01.HRT.QC.DSP.replicate.R")
 
 oo()
 
@@ -201,7 +201,7 @@ if (Fig.S5) {
 
 # DiffExp ------------------------------------------------------------------------------------------------------------
 DiffExp = T
-if (DiffExp) source("~/GitHub/Projects/HRT/Scripts.DSP.replicate/03.Diff.Exp.HRT.DSP.replicate.R")
+if (DiffExp) source("~/GitHub/ACM.TomoSeq/Scripts.DSP.replicate/03.Diff.Exp.HRT.DSP.replicate.R")
 
 # Fig.2D Heatmap Similar.Geneprofiles.zScore ------------------------------------------------------------------------------------------
 Fig.2D = T

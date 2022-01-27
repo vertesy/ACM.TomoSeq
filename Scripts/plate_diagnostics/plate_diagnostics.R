@@ -17,11 +17,11 @@ MergedOutFile = paste0(InputDir,"TranscriptCounts.Merged.tsv")
 ####install/load packages and variables####
 # install.packages("oce") # install this package upon first use
 # source("https://raw.githubusercontent.com/vertesy/CodeAndRoll/master/CodeAndRoll.R")
-source('~/Github_repos/TheCorvinas/R/CodeAndRoll.R')
+source('~/GitHub/TheCorvinas/R/CodeAndRoll.R')
 
 # source("https://raw.githubusercontent.com/vertesy/single-cell-sequencing/master/plate_diagnostics_functions.R");
-# source("~/Github_repos/_Others/scQC_Mauro/plate_diagnostics_functions.R")
-source("~/Github_repos/_Others/scQC_Mauro/plate_diagnostics_functions.4JC.R")
+# source("~/GitHub/_Others/scQC_Mauro/plate_diagnostics_functions.R")
+source("~/GitHub/_Others/scQC_Mauro/plate_diagnostics_functions.4JC.R")
 
 irequire(RColorBrewer)
 irequire(oce)
